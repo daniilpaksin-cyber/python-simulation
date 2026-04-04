@@ -22,11 +22,14 @@ mixture = signal + noise
 
 plt.figure(1)
 plt.plot(t, signal)
+plt.title('Signal')
 
 plt.figure(2)
 plt.plot(t, noise)
+plt.title('Noise')
 
 plt.figure(3)
 plt.plot(t, mixture)
+plt.title('Mixture')
 
 plt.show()
